@@ -1,6 +1,4 @@
-require "formula"
-
-class Pyxel < formula
+class Pyxel < Formula
   desc "A retro game engine for Python"
   homepage "https://github.com/kitao/pyxel"
   url "https://github.com/kitao/pyxel/raw/develop/dist/pyxel-1.5.0-macos.zip"
