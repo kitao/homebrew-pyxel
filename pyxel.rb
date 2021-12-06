@@ -2,7 +2,6 @@ class Pyxel < Formula
   desc "A retro game engine for Python"
   homepage "https://github.com/kitao/pyxel"
   url "https://github.com/kitao/pyxel/raw/develop/dist/pyxel-1.5.0-macos.zip"
-  version "1.5.0pre"
   sha256 ""
   license "MIT"
 
@@ -12,6 +11,7 @@ class Pyxel < Formula
   end
 
   test do
-    #
+    assert shell_output("#{bin}/pyxel").starts_with("Pyxel ")
+    assert false
   end
 end
