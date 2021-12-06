@@ -11,7 +11,7 @@ class Pyxel < Formula
   end
 
   test do
-    assert shell_output("#{bin}/pyxel").starts_with?("Pyxel ")
+    assert shell_output("#{bin}/pyxel").start_with?("Pyxel ")
     assert false
   end
 end
