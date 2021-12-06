@@ -1,17 +1,9 @@
 class Pyxel < Formula
   desc "A retro game engine for Python"
   homepage "https://github.com/kitao/pyxel"
+  url "https://github.com/kitao/pyxel/raw/develop/dist/pyxel-1.5.0-macos.zip"
+  sha256 ""
   license "MIT"
-
-  on_macos do
-    url "https://github.com/kitao/pyxel/raw/develop/dist/pyxel-1.5.0-macos.zip"
-    sha256 ""
-  end
-
-  on_linux do
-    url "https://github.com/kitao/pyxel/raw/develop/dist/pyxel-1.5.0-linux.zip"
-    sha256 ""
-  end
 
   def install
     libexec.install Dir["*"]
