@@ -7,7 +7,8 @@ class Pyxel < Formula
   license "MIT"
 
   def install
-    bin.install "pyxel"
+    libexec.install Dir["*"]
+    bin.write_exec_script libexec/"pyxel"
   end
 
   test do
