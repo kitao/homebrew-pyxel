@@ -11,7 +11,6 @@ class Pyxel < Formula
   on_linux do
     url "https://github.com/kitao/pyxel/raw/develop/dist/pyxel-1.5.0-linux.zip"
     sha256 ""
-    depends_on "sdl2"
   end
 
   def install
