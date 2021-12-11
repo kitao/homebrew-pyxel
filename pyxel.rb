@@ -4,14 +4,13 @@ class Pyxel < Formula
   license "MIT"
 
   on_macos do
-    url "https://github.com/kitao/pyxel/raw/develop/dist/pyxel-1.5.0-macos.zip"
+    url "https://github.com/kitao/pyxel/releases/download/v1.5.0/pyxel-1.5.0-macos.zip"
     sha256 ""
   end
 
   on_linux do
-    url "https://github.com/kitao/pyxel/raw/develop/dist/pyxel-1.5.0-linux.zip"
+    url "https://github.com/kitao/pyxel/releases/download/v1.5.0/pyxel-1.5.0-linux.zip"
     sha256 ""
-    depends_on "sdl2"
   end
 
   def install
