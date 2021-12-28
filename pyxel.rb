@@ -4,13 +4,13 @@ class Pyxel < Formula
   license "MIT"
 
   on_macos do
-    url "https://github.com/kitao/pyxel/releases/download/v1.5.4/pyxel-1.5.4-macos.zip"
-    sha256 "71707fdd53f802955ff77b922283479a72d949104fb3c71b667b8461240a4277"
+    url "https://github.com/kitao/pyxel/releases/download/v1.5.5/pyxel-1.5.5-macos.zip"
+    sha256 "26e8694fa9dc05fa1f16930d040b09366621f7fb371e0991b57015fdd068a100"
   end
 
   on_linux do
-    url "https://github.com/kitao/pyxel/releases/download/v1.5.4/pyxel-1.5.4-linux.zip"
-    sha256 "30667e94340f70b8f596c893c614366203f46ba8bb746cf7ede7db948f2bf864"
+    url "https://github.com/kitao/pyxel/releases/download/v1.5.5/pyxel-1.5.5-linux.zip"
+    sha256 "29177265ad08da7d4654cbbf0b31668f98226637449ef046dee2dc91d2367a66"
   end
 
   def install
