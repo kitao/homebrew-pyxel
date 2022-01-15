@@ -8,10 +8,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: ./update_formula ${{ github.event.client_payload.version }}
-    #  - run: |
-    #      git config --local user.email "action@github.com"
-    #      git config --local user.name "GitHub Action"
-    #      git commit -m "Updated the version" -a
-    #  - uses: ad-m/github-push-action@master
-    #    with:
-    #      github_token: ${{ secrets.GITHUB_TOKEN }}
+      - run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m "Updated the links" -a
+      - uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
