@@ -3,7 +3,7 @@ name: Update
 on: repository_dispatch
 
 jobs:
-  build:
+  update-formula:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
