@@ -7,12 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - run: echo Test
-      - run: echo ${{ github.event.client_payload.version }}
+      - run: ./update_formula ${{ github.event.client_payload.version }}
     #  - run: |
     #      git config --local user.email "action@github.com"
     #      git config --local user.name "GitHub Action"
-    #      git commit -m "update version" -a
+    #      git commit -m "Updated the version" -a
     #  - uses: ad-m/github-push-action@master
     #    with:
     #      github_token: ${{ secrets.GITHUB_TOKEN }}
