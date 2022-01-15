@@ -8,6 +8,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - run: echo Test
+      - run: echo ${{ github.event.client_payload.version }}
     #  - run: |
     #      git config --local user.email "action@github.com"
     #      git config --local user.name "GitHub Action"
